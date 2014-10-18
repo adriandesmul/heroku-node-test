@@ -33,8 +33,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "preinstall": "gem install compass",
-    "postinstall": "nnpm install -g bower & bower install & .gulp build",
+    "preinstall": "gem install compass & npm install -g bower & npm install -g gulp",
+    "postinstall": "bower install & .gulp build",
     "start": "gulp serve"
   }
 }
