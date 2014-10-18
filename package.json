@@ -30,5 +30,9 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "scripts": {
+    "postinstall": "gulp build",
+    "start": "gulp serve"
   }
 }
