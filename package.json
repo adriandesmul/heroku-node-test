@@ -34,7 +34,7 @@
   },
   "scripts": {
     "preinstall": "gem install compass & npm install -g bower & npm install -g gulp",
-    "postinstall": "bower install & .gulp build",
+    "postinstall": "bower install & gulp build",
     "start": "gulp serve"
   }
 }
