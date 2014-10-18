@@ -33,7 +33,7 @@
   },
   "scripts": {
     "preinstall": "gem install compass",
-    "postinstall": "gulp build",
+    "postinstall": "bower install & gulp build",
     "start": "gulp serve"
   }
 }
